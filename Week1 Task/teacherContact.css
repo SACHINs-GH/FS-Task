@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: normal;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(133, 255, 127);
+}

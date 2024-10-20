@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+table{
+    margin-top: 5%;
+    border-spacing: 5px; 
+    background-color: black;
+    color: aquamarine;
+    border: 1px solid red;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 238, 127);
+}
+/* tr:first-child{
+   
+} */
+th,td{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+}
